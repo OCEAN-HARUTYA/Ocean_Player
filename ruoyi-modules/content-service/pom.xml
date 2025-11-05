@@ -14,44 +14,55 @@
 
 
     <dependencies>
-    <dependency>
-        <groupId>org.dromara</groupId>
-        <artifactId>ruoyi-common-nacos</artifactId>
-    </dependency>
-<!--todo-->
-<!--    <dependency>-->
-<!--        <groupId>org.dromara</groupId>-->
-<!--        <artifactId>ruoyi-common-sentinel</artifactId>-->
-<!--    </dependency>-->
+        <dependency>
+            <groupId>org.dromara</groupId>
+            <artifactId>ruoyi-common-nacos</artifactId>
+        </dependency>
+        <!--todo-->
+        <!--    <dependency>-->
+        <!--        <groupId>org.dromara</groupId>-->
+        <!--        <artifactId>ruoyi-common-sentinel</artifactId>-->
+        <!--    </dependency>-->
 
-    <!-- RuoYi Common Log -->
-    <dependency>
-        <groupId>org.dromara</groupId>
-        <artifactId>ruoyi-common-log</artifactId>
-    </dependency>
+        <!-- RuoYi Common Log -->
+        <dependency>
+            <groupId>org.dromara</groupId>
+            <artifactId>ruoyi-common-log</artifactId>
+        </dependency>
 
-    <!-- RuoYi 接口文档 -->
-    <dependency>
-        <groupId>org.dromara</groupId>
-        <artifactId>ruoyi-common-doc</artifactId>
-    </dependency>
+        <!-- RuoYi 接口文档 -->
+        <dependency>
+            <groupId>org.dromara</groupId>
+            <artifactId>ruoyi-common-doc</artifactId>
+        </dependency>
 
-    <dependency>
-        <groupId>org.dromara</groupId>
-        <artifactId>ruoyi-common-web</artifactId>
-    </dependency>
+        <dependency>
+            <groupId>org.dromara</groupId>
+            <artifactId>ruoyi-common-web</artifactId>
+        </dependency>
 
-    <dependency>
-        <groupId>org.dromara</groupId>
-        <artifactId>ruoyi-common-mybatis</artifactId>
-    </dependency>
+        <dependency>
+            <groupId>org.dromara</groupId>
+            <artifactId>ruoyi-common-mybatis</artifactId>
+        </dependency>
 
-    <!-- RuoYi 幂等性 -->
-    <dependency>
-        <groupId>org.dromara</groupId>
-        <artifactId>ruoyi-common-idempotent</artifactId>
-    </dependency>
+        <!-- RuoYi 幂等性 -->
+        <dependency>
+            <groupId>org.dromara</groupId>
+            <artifactId>ruoyi-common-idempotent</artifactId>
+        </dependency>
+        <!--MINIO-->
+        <dependency>
+            <groupId>io.minio</groupId>
+            <artifactId>minio</artifactId>
+            <version>8.5.13</version>
+        </dependency>
 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
