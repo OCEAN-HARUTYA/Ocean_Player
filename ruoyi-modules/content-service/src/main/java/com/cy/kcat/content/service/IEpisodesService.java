@@ -1,5 +1,6 @@
 package com.cy.kcat.content.service;
 
+import com.baomidou.mybatisplus.extension.service.IService;
 import com.cy.kcat.content.domain.Episodes;
 import com.cy.kcat.content.domain.vo.EpisodesVo;
 import com.cy.kcat.content.domain.bo.EpisodesBo;
@@ -15,7 +16,7 @@ import java.util.List;
  * @author Ocean_Yang
  * @date 2025-11-01
  */
-public interface IEpisodesService {
+public interface IEpisodesService  {
 
     /**
      * 查询剧集管理
