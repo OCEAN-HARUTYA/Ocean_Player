@@ -1,0 +1,15 @@
+spring:
+  ai:
+    deepseek:
+      api-key: sk-205fb87ba80946c08469c5d953c68481
+      base-url: https://api.deepseek.com
+    mcp:
+      client:
+        name: spring-ai-mcp-client
+        sse:
+          connections:
+            mcp-server1:
+              url: http://localhost:12000
+              sse-endpoint: /api/sse
+        toolcallback:
+          enabled: true

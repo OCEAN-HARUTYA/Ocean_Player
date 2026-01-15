@@ -39,3 +39,21 @@ myminio:
   endpoint: http://localhost:9000
   accessKey: ruoyi
   secretKey: ruoyi123
+
+vod:
+ secretId: AKID66ye8PTLzQddQvJUTHsHTTHuRmupX1JN
+ secretKey: tYPCv0veCXfaHrEOK3Ys1xgCVbT9cryt
+ subAppId: 1500044320
+ region: ap-chengdu
+---
+spring:
+  ai:
+    deepseek:
+      api-key: sk-205fb87ba80946c08469c5d953c68481
+      base-url: https://api.deepseek.com
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        model: llama3.2
+        options:
+          temperature: 0.7

@@ -10,7 +10,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 /**
  * 文件上传
- * @author 19788
+ * @author
  */
 @RestController
 public class UploadController {
@@ -26,7 +26,7 @@ public class UploadController {
     @PostMapping("/upload")
     public R upload(@RequestParam("file") MultipartFile file) {
         String url = minioTemplate.updateWebFile(file);
-
         return R.ok(url, "上传成功");
     }
+
 }

@@ -60,7 +60,7 @@ public class MinioTemplate {
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
-        // test for excel
+        // test for Excel
         return url ;
 
     }

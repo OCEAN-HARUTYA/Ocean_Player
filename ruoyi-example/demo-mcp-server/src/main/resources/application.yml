@@ -1,0 +1,18 @@
+spring:
+  ai:
+    mcp:
+      server:
+        name: mcp-server
+        enabled: true
+        sse-endpoint: /api/sse
+        #        客户端通过这个端点和服务器进行聊天
+        sse-message-endpoint: /api/mcp/message
+        capabilities:
+          tool: true
+---
+server:
+  port: 12000
+logging:
+  level:
+    io.modelcontextprotocol: trace
+    org.springframework.ai.mcp: trace
